@@ -8,7 +8,6 @@
 - Removed unused css styles
 
 
-
 ## pizza.html
 #### Changes
 
