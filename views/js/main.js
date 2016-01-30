@@ -519,7 +519,7 @@ function updatePositions() {
                     Math.sin(bodyNum + 4)
                   ];
 
-  for (var i = 0; i < items.length; i++) {
+  for (var i = 0; i < 32; i++) {
     // set correct phase number based on i % 5
     var phase = phaseNums[i%5];
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
@@ -542,8 +542,9 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
-    var elem = document.createElement('img');
+
+  for (var i = 0; i < 32; i++) {
+var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
