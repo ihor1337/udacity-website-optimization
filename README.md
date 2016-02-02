@@ -1,3 +1,6 @@
+## Run the project
+- open file index.html in your browser.
+
 ## index.html
 #### Changes 
 
