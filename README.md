@@ -16,4 +16,4 @@
 
 - calculating of new width of pizza executes only once.
 - in method updatepositions() math operations executes also only once, outside the loop
-
+- in method changePizzaSizes() selector document.querySelectorAll was replaced by document.getElementByClassName
